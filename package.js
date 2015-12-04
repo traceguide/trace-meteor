@@ -1,8 +1,8 @@
 Package.describe({
   name: 'traceguide:traceguide-meteor',
-  version: '0.1.0',
+  version: '0.1.3',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'Trace operations across the client and server',
   // URL to the Git repository containing the source code for this package.
   git: 'https://github.com/traceguide/traceguide-meteor',
   // By default, Meteor will default to using README.md for documentation.

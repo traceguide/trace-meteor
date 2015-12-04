@@ -1,6 +1,6 @@
 Package.describe({
   name: 'traceguide:traceguide-meteor',
-  version: '0.1.3',
+  version: '0.1.4',
   // Brief, one-line summary of the package.
   summary: 'Trace operations across the client and server',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Npm.depends({
-    'api-javascript': '0.5.23',
+    'api-javascript': '0.5.24',
     'event-loop-monitor' : '0.1.0',
 })
 
@@ -22,6 +22,7 @@ Package.onUse(function(api) {
 
   // Client only
   api.addFiles([
+    'lib/client/traceguide-browser.js',
     'lib/client/client.js',
   ], 'client');
 
@@ -32,6 +33,10 @@ Package.onUse(function(api) {
   ], 'server');
 
   api.addFiles('traceguide-meteor.js');
+
+  // Exports
+  api.export("Traceguide", 'client');
+  api.export("Traceguide", 'server');
 });
 
 Package.onTest(function(api) {

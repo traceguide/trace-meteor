@@ -1,6 +1,6 @@
 Package.describe({
   name: 'traceguide:traceguide-meteor',
-  version: '0.1.4',
+  version: '0.5.0',
   // Brief, one-line summary of the package.
   summary: 'Trace operations across the client and server',
   // URL to the Git repository containing the source code for this package.

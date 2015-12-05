@@ -28,5 +28,4 @@ if (Meteor.isClient) {
 
   // your usual code here
 }
-
 ```

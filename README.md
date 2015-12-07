@@ -1,6 +1,8 @@
 # traceguide-meteor
 
-Provides automatic trace generator within the Meteor framework using the NPM module [api-javascript on NPM](https://www.npmjs.com/package/api-javascript).
+Provides automatic distributed tracing performance and error data with the Meteor framework, using the NPM module [api-javascript on NPM](https://www.npmjs.com/package/api-javascript).
+
+![Screenshot](http://resonancelabs.github.io/traceguide/static/images/meteor-example-trace-20151205.png)
 
 ## Usage
 

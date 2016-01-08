@@ -1,6 +1,6 @@
 Package.describe({
   name: 'traceguide:traceguide-meteor',
-  version: '0.5.1',
+  version: '0.5.2',
   // Brief, one-line summary of the package.
   summary: 'Trace operations across the client and server',
   // URL to the Git repository containing the source code for this package.
@@ -11,7 +11,7 @@ Package.describe({
 });
 
 Npm.depends({
-    'api-javascript': '0.5.24',
+    'api-javascript': '0.5.34',
     'event-loop-monitor' : '0.1.0',
 })
 
